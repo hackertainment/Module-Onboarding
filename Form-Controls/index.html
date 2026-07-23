@@ -30,13 +30,13 @@
         <div>
           Colour:
           <label>
-            <input type="radio" id="colour_r" name="colour" value="R" /><span style="background-color:#FFBBBB;">Red</span>&nbsp;
+            <input type="radio" id="colour_r" name="colour" value="R" required /><span style="background-color:#FFBBBB;">Red</span>&nbsp;
           </label>
           <label>
-            <input type="radio" id="colour_g" name="colour" value="G" /><span style="background-color:#BBFFBB;">Green</span>&nbsp;
+            <input type="radio" id="colour_g" name="colour" value="G" required /><span style="background-color:#BBFFBB;">Green</span>&nbsp;
           </label>
           <label>
-            <input type="radio" id="colour_b" name="colour" value="B" /><span style="background-color:#BBBBFF;">Blue</span>&nbsp;
+            <input type="radio" id="colour_b" name="colour" value="B" required /><span style="background-color:#BBBBFF;">Blue</span>&nbsp;
           </label>
         </div>
         <!-- What size does the customer want? I must provide the following 6 options: XS, S, M, L, XL, XXL -->
@@ -55,11 +55,13 @@
         <!-- 
           try writing out the requirements first as comments
         this will also help you fill in your PR message later-->
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
       </form>
     </main>
     <footer>
       <!-- change to your name-->
-      <p>By HOMEWORK SOLUTION</p>
+      <p>By WYATT LEE</p>
     </footer>
   </body>
 </html>
